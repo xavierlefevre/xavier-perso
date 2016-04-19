@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*Global*/
+body{margin:0; margin-top:5%;}
+a {text-decoration:none;}
+#title {margin-bottom:0;}
+#text {
+	font-weight:300;
+	margin-left:0;
+	margin-right:0;
+}
+#pres {
+	color:black;
+	font-family: 'Lato', sans-serif;
+	margin:auto;
+	width:70%;
+}
+#social {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:6%;
+}
+#social ul {	padding:0;}
+#social li {
+	width:12%;
+	list-style:none;
+	display:inline-block;
+}
+#li-youtube {margin-right:5%;}
+#li-facebook, #li-linkedin {margin-right:5%; margin-left:5%;}
+#li-soundcloud {margin-left:5%;}
+
+#facebook {fill:#3b5998;transform-origin:50% 50%;}
+#youtube {fill:#cc181e;}
+#linkedin {fill:#0077B5;}
+#soundcloud {fill:#ff7700;}
+
+@keyframes rotate {
+	0% {
+		transfrom:scale(0,0);
+	}
+	100% {
+		transform:scale(1.3,1.3 );
+	}
+}
+
+#facebook:hover, #youtube:hover, #linkedin:hover, #soundcloud:hover {animation: rotate 2s forwards alternate;} 

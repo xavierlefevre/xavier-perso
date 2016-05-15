@@ -1,13 +1,10 @@
-var express = require('express'),
-    app     = express();
+/* eslint no-console: ["error", { allow: ["warn", "error", "log"] }] */
 
-app.set('view engine', 'ejs');
-app.use(express.static(__dirname + "/public"));
+const express = require('express');
+const app = express();
 
-app.get('/', function(req, res){
-    res.render("index");
-});
+app.use(express.static('src'));
 
-app.listen(process.env.PORT, function(){
-    console.log('Serveur en route!');
+app.listen(process.env.PORT || 3000, () => {
+  console.log('Serveur en route!');
 });

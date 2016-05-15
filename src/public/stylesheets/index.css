@@ -3,14 +3,17 @@
 /*Global*/
 body{margin:0; margin-top:5%;}
 a {text-decoration:none;}
-#title {margin-bottom:0;}
+#title {
+	margin-bottom:0;
+	height:60px
+}
 #text {
 	font-weight:300;
 	margin-left:0;
 	margin-right:0;
 }
 #pres {
-	color:black;
+	color:grey;
 	font-family: 'Lato', sans-serif;
 	margin:auto;
 	width:70%;
@@ -45,4 +48,4 @@ a {text-decoration:none;}
 	}
 }
 
-#facebook:hover, #youtube:hover, #linkedin:hover, #soundcloud:hover {animation: rotate 2s forwards alternate;} 
+#facebook:hover, #youtube:hover, #linkedin:hover, #soundcloud:hover {animation: rotate 2s forwards alternate;}

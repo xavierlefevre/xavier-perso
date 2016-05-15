@@ -34,10 +34,10 @@ a {text-decoration:none;}
 #li-facebook, #li-linkedin {margin-right:5%; margin-left:5%;}
 #li-soundcloud {margin-left:5%;}
 
-#facebook {fill:#3b5998;transform-origin:50% 50%;}
-#youtube {fill:#cc181e;}
-#linkedin {fill:#0077B5;}
-#soundcloud {fill:#ff7700;}
+#facebook {height: 100px; fill:#3b5998;transform-origin:50% 50%;}
+#youtube {height: 100px; fill:#cc181e;}
+#linkedin {height: 100px; fill:#0077B5;}
+#soundcloud {height: 100px; fill:#ff7700;}
 
 @keyframes rotate {
 	0% {

@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/App.js',
   output: {
     filename: 'public/app.js',
   },

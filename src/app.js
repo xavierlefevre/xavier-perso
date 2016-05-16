@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router } from 'react-router';
-import routes from './routes/routes';
+import { Router, hashHistory } from 'react-router';
+import Routes from './routes/Routes';
 
 ReactDOM.render(
-  <Router>{routes}</Router>,
+  <Router history={hashHistory} >{Routes}</Router>,
   document.getElementById('main')
 );
